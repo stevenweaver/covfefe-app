@@ -5,10 +5,10 @@
 
 <div class="bg-container" style="background-image: url('https://images2.alphacoders.com/980/980225.png')">
 	<div class="container bg-slate-100/40">
-		<div class="grid grid-rows-2 grid-cols-6 pt-4">
+		<div class="grid grid-rows-1 grid-cols-6 pt-4">
 			<div class="col-start-2 col-span-4 row-span-1">
 				<h1 class="text-6xl">ＣＯＶＦＥＦＥ　•　コブフェフェ</h1>
-				<h1 class="text-5xl">ＡＰＰＬＩＣＡＴＩＯＮ</h1>
+        <h1><b>C</b>ONDITIONALLY <b>O</b>RTHOGONAL <b>V</b>ERTICES <b>F</b>OR <b>E</b>DGE <b>F</b>ILTERING IN <b>E</b>PIDEMICS</h1>
 			</div>
 			<div class="col-start-4 col-span-6 row-span-1">
 				<h4 class="text-xl">
@@ -18,7 +18,7 @@
 		</div>
 
 		<div class="items-center bg-slate-100/60">
-			<ul class="col-span-6 p-3">
+			<ul class="col-span-6 p-3 mt-5">
 				<li class="border-gray-400 mb-2"><a href="overview">ＯＶＥＲＶＩＥＷ　オーバービュー</a></li>
 				<li class="border-gray-400 mb-2"><a href="simulated">ＳＩＭＵＬＡＴＩＯＮＳ　シミュ</a></li>
 				<li class="border-gray-400 mb-2"><a href="empirical">ＥＭＰＩＲＩＣＡＬ エンピリカル</a></li>
