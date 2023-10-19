@@ -7,7 +7,7 @@
 	<div class="container bg-slate-100/40">
 		<div class="grid grid-rows-2 grid-cols-6 pt-4">
 			<div class="col-start-2 col-span-4 row-span-1">
-				<h1 class="text-6xl">ＣＯＶＦＥＦＥ　•　コヴフェフェ</h1>
+				<h1 class="text-6xl">ＣＯＶＦＥＦＥ　•　コブフェフェ</h1>
 				<h1 class="text-5xl">ＡＰＰＬＩＣＡＴＩＯＮ</h1>
 			</div>
 			<div class="col-start-4 col-span-6 row-span-1">
