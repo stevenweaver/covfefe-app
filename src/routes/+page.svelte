@@ -21,7 +21,7 @@
 			<ul class="col-span-6 p-3">
 				<li class="border-gray-400 mb-2"><a href="overview">ＯＶＥＲＶＩＥＷ　オーバービュー</a></li>
 				<li class="border-gray-400 mb-2"><a href="simulated">ＳＩＭＵＬＡＴＩＯＮＳ　シミュ</a></li>
-				<li class="border-gray-400 mb-2"><a href="empirical">ＥＭＰＩＲＩＣＡＬ シミュ</a></li>
+				<li class="border-gray-400 mb-2"><a href="empirical">ＥＭＰＩＲＩＣＡＬ エンピリカル</a></li>
 				<li class="border-gray-400 mb-2"><a href="about">ＡＢＯＵＴ　アバウト</a></li>
 			</ul>
 		</div>
