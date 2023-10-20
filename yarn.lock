@@ -6,6 +6,10 @@
   version "2415.0.0"
   resolved "https://api.observablehq.com/d/921402678226d2da@2415.tgz?v=3#9494f703731032022ce6e6be84948949ff493040"
 
+"921402678226d2da@https://api.observablehq.com/d/921402678226d2da@2461.tgz?v=3":
+  version "2461.0.0"
+  resolved "https://api.observablehq.com/d/921402678226d2da@2461.tgz?v=3#913c6e1b79b2ed702e2b2a9d7c6b64800c726072"
+
 "@aashutoshrathi/word-wrap@^1.2.3":
   version "1.2.6"
   resolved "https://registry.yarnpkg.com/@aashutoshrathi/word-wrap/-/word-wrap-1.2.6.tgz#bd9154aec9983f77b3a034ecaa015c2e4201f6cf"

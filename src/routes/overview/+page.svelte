@@ -5,16 +5,23 @@
 
 	let notebookRef;
 	let variableNames = [];
-	let viewFlag = true;
+	let viewFlag = false;
 
 	onMount(async () => {
+
 		const runtime = new Runtime();
 
 		let main = runtime.module(notebook, (name) => {
+
 			const node = Inspector.into(notebookRef)(name);
+
 			variableNames.push(name);
 
-			if (name == 'chain_nodes') {
+      if(name == 'overview') {
+        viewFlag = true;
+      }
+
+			if (name == 'simDataHeader') {
 				viewFlag = false;
 			}
 
@@ -30,13 +37,20 @@
 			} else {
 				return null;
 			}
+
 		});
+
 	});
+
 </script>
 
-<div class="container" bind:this={notebookRef} />
+<div class="container">
+  <h1>Overview</h1>
+  <div class="overview" bind:this={notebookRef}></div>
+</div>
 
 <style>
+
 	:global(.container h1) {
 		@apply text-xxl font-semibold;
 		font-size: xx-large;
@@ -44,7 +58,35 @@
 		margin-bottom: 15px;
 	}
 
+	:global(.container h2) {
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+
+	:global(.container svg) {
+		display: inline;
+	}
+
+
+	:global(.container table) {
+		width: 100%;
+    margin-top: 10px;
+		border-collapse: collapse;
+		@apply shadow-md rounded-lg;  /* Add shadow and rounded corners */
+	}
+
+	:global(.container th) {
+		background-color: #f3f4f6;  /* Light grey background */
+		@apply py-2 px-4 text-left border-b;  /* Padding and border */
+	}
+
+	:global(.container td) {
+		@apply py-2 px-4 text-left border-b;  /* Padding and border */
+	}
+
 	:global(#data) {
 		display: none;
 	}
+
 </style>
+
