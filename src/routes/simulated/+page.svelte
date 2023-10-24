@@ -22,7 +22,7 @@
         viewFlag = true;
       }
 
-			if (name == 'empiricalHeader') {
+			if (name == 'empiricalResultsHeader') {
 				viewFlag = false;
 			}
 
@@ -55,7 +55,7 @@
 </script>
 
 <div class="container">
-  <h1>Simulated Data</h1>
+  <h1>Simulations</h1>
   <div class="simulated" bind:this={notebookRef}></div>
 </div>
 

@@ -20,7 +20,7 @@
 		<div class="items-center bg-slate-100/60">
 			<ul class="col-span-6 p-3 mt-5">
 				<li class="border-gray-400 mb-2"><a href="overview">ＯＶＥＲＶＩＥＷ　オーバービュー</a></li>
-				<li class="border-gray-400 mb-2"><a href="simulated">ＳＩＭＵＬＡＴＩＯＮＳ　シミュ</a></li>
+				<li class="border-gray-400 mb-2"><a href="simulated">ＳＩＭＵＬＡＴＩＯＮＳ　シミュ</a><img class="construction" src="https://i0.wp.com/www.bapl.org/wp-content/uploads/2019/02/old-under-construction-gif.gif?fit=266%2C266&ssl=1" /></li>
 				<li class="border-gray-400 mb-2"><a href="empirical">ＥＭＰＩＲＩＣＡＬ エンピリカル</a></li>
 				<li class="border-gray-400 mb-2"><a href="about">ＡＢＯＵＴ　アバウト</a></li>
 			</ul>
@@ -29,6 +29,15 @@
 </div>
 
 <style>
+
+  :global(.construction) {
+    display: inline;
+    vertical-align: middle;
+    width: 25px;
+    margin-left:5px;
+    height: auto;
+  }
+
 	.container {
 		font-family: '';
 		font-size: x-large;
