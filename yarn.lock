@@ -2,10 +2,6 @@
 # yarn lockfile v1
 
 
-"921402678226d2da@https://api.observablehq.com/d/921402678226d2da@2415.tgz?v=3":
-  version "2415.0.0"
-  resolved "https://api.observablehq.com/d/921402678226d2da@2415.tgz?v=3#9494f703731032022ce6e6be84948949ff493040"
-
 "921402678226d2da@https://api.observablehq.com/d/921402678226d2da@2461.tgz?v=3":
   version "2461.0.0"
   resolved "https://api.observablehq.com/d/921402678226d2da@2461.tgz?v=3#913c6e1b79b2ed702e2b2a9d7c6b64800c726072"
@@ -39,6 +35,14 @@
   version "0.7.6"
   resolved "https://registry.yarnpkg.com/@antfu/utils/-/utils-0.7.6.tgz#30a046419b9e1ecd276e53d41ab68fb6c558c04d"
   integrity sha512-pvFiLP2BeOKA/ZOS6jxx4XhKzdVLHDhGlFEaZ2flWWYf2xOqVniqpk38I04DFRyz+L0ASggl7SkItTc+ZLju4w==
+
+"@biowasm/aioli@^3.1.0":
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/@biowasm/aioli/-/aioli-3.1.0.tgz#913b3eafec760f195382021507451f266a2d7161"
+  integrity sha512-0EvfL6v1MHZbtiUDNWsXh+WOdC/eQ82nBCuA2+/cYmAHOEjrymzWNr4r7pYRsgSVkbSJ2FBz+SuXnoveN8iFlQ==
+  dependencies:
+    comlink "^4.3.1"
+    wasm-feature-detect "^1.2.11"
 
 "@esbuild/android-arm64@0.18.20":
   version "0.18.20"
@@ -674,6 +678,11 @@ color-name@~1.1.4:
   version "1.1.4"
   resolved "https://registry.yarnpkg.com/color-name/-/color-name-1.1.4.tgz#c2a09a87acbde69543de6f63fa3995c826c536a2"
   integrity sha512-dOy+3AuW3a2wNbZHIuMZpTcgjGuLU/uBL/ubcZF9OXbDo8ff4O8yVp5Bf0efS8uEoYo5q4Fx7dY9OgQGXgAsQA==
+
+comlink@^4.3.1:
+  version "4.4.1"
+  resolved "https://registry.yarnpkg.com/comlink/-/comlink-4.4.1.tgz#e568b8e86410b809e8600eb2cf40c189371ef981"
+  integrity sha512-+1dlx0aY5Jo1vHy/tSsIGpSkN4tS9rZSW8FIhG0JH/crs9wwweswIo/POr451r7bZww3hFbPAKnTpimzL/mm4Q==
 
 comma-separated-tokens@^2.0.0:
   version "2.0.3"
@@ -2585,6 +2594,11 @@ vitefu@^0.2.4:
   version "0.2.5"
   resolved "https://registry.yarnpkg.com/vitefu/-/vitefu-0.2.5.tgz#c1b93c377fbdd3e5ddd69840ea3aa70b40d90969"
   integrity sha512-SgHtMLoqaeeGnd2evZ849ZbACbnwQCIwRH57t18FxcXoZop0uQu0uzlIhJBlF/eWVzuce0sHeqPcDo+evVcg8Q==
+
+wasm-feature-detect@^1.2.11:
+  version "1.6.0"
+  resolved "https://registry.yarnpkg.com/wasm-feature-detect/-/wasm-feature-detect-1.6.0.tgz#b69eaa4830c2e9679960dfa20f78560530214b96"
+  integrity sha512-9pU2FAr7OaZarGJBU6eMg2a03gFDHhUoGCb5ob9MVT+d58eFz6eVhiXnPOO9BNoDE8KRKbuqO96cuOtUJJuekw==
 
 which@^2.0.1:
   version "2.0.2"

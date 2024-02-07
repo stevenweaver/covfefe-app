@@ -56,7 +56,23 @@
 
 	:global(h2) {
 		@apply text-xl font-semibold;
+    margin-top: 15px;
+    margin-bottom: 15px;
 	}
+
+	:global(h3) {
+		@apply text-l font-semibold;
+    margin-top: 5px;
+    margin-bottom: 5px;
+	}
+
+	:global(pre) {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color:pink;
+    padding: 5px;
+	}
+
 
 	:global(.container h1) {
 		@apply text-xxl font-semibold;
