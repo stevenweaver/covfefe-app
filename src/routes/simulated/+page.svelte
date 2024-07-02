@@ -22,7 +22,7 @@
         viewFlag = true;
       }
 
-			if (name == 'empiricalResultsHeader') {
+			if (name == 'favitesTable') {
 				viewFlag = false;
 			}
 
