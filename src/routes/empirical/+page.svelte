@@ -1,7 +1,7 @@
 <script>
 	import { onMount, beforeUpdate } from 'svelte';
 	import { Runtime, Inspector } from '@observablehq/runtime';
-	import notebook from '921402678226d2da';
+	import notebook from '@stevenweaver/edge-filtering-report';
 
 	let notebookRef;
 	let variableNames = [];
@@ -41,7 +41,6 @@
 			}
 
 		});
-
 
 
 	});

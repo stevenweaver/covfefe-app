@@ -70,4 +70,14 @@
 		list-style-type: lower-alpha;
 		margin-left: 20px;
 	}
+
+  div :global(ul > li) {
+    list-style: inside;
+  }
+
+  div :global(ol > li) {
+    list-style: lower-alpha;
+  }
+
+
 </style>

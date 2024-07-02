@@ -1,14 +1,12 @@
 # About 
 
-The algorithm employs a zero branch-length statistical test to evaluate
-the necessity of edges within network triangles. Utilizing the TN93
-substitution matrix[@tamura_estimation_1993] and Felsenstein's maximum
-likelihood approach [@felsenstein_evolutionary_1981], it assesses
-whether the nodes in a triangle are conditionally independent. Edges
-failing the test are marked for removal unless they serve as 'bridges'
-in the network, ensuring no clusters are broken. The method iterates
-until no further edges can be removed and is extendable to cycles of
-arbitrary length.
+The algorithm employs a zero branch-length statistical test to evaluate the
+necessity of edges within network triangles. Utilizing the TN93 substitution
+matrix and Felsenstein's maximum likelihood approach, it assesses whether the
+nodes in a triangle are conditionally independent. Edges failing the test are
+marked for removal unless they serve as 'bridges' in the network, ensuring no
+clusters are broken. The method iterates until no further edges can be removed
+and is extendable to cycles of arbitrary length.
 
 ## Example Usage
 
@@ -21,7 +19,7 @@ and the `hivnetworkcsv` command.
 
 ### Requirements
 
-- HIV-TRACE installed and configured on your system.
+- [HIV-TRACE](https://github.com/veg/hivtrace) installed and configured on your system.
 - A FASTA file with your sequence data.
 
 ### Using `hivtrace` for Edge Filtering

@@ -336,6 +336,14 @@
     estree-walker "^2.0.2"
     picomatch "^2.3.1"
 
+"@stevenweaver/edge-filtering-report@https://api.observablehq.com/@stevenweaver/edge-filtering-report@3411.tgz?v=3":
+  version "3411.0.0"
+  resolved "https://api.observablehq.com/@stevenweaver/edge-filtering-report@3411.tgz?v=3#5676524cdb2ddf590e9b4bf7f35b4826f1a86567"
+
+"@stevenweaver/edge-filtering-report@https://api.observablehq.com/@stevenweaver/edge-filtering-report@3412.tgz?v=3":
+  version "3412.0.0"
+  resolved "https://api.observablehq.com/@stevenweaver/edge-filtering-report@3412.tgz?v=3#2c916c1c62555ccfd854767c96cc9a55a1e81d91"
+
 "@sveltejs/adapter-auto@^2.0.0":
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/@sveltejs/adapter-auto/-/adapter-auto-2.1.0.tgz#cb36fd7081e3c4b1c9a9192b1a23c8c82dce8a1b"
